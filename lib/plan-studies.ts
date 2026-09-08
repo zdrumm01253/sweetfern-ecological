@@ -3,7 +3,7 @@ import type {ProjectDetails} from './project-details';
 export const planStudies:Project[]=[
   {
     "slug": "bowman-residence",
-    "title": "Bowman Residence",
+    "title": "Sandplan Meadow and Landscape",
     "category": "Residential design study · Fall 2025",
     "location": "Southampton, Massachusetts",
     "hero": "/studies/bowman/illustration.webp",
@@ -46,7 +46,7 @@ export const planStudies:Project[]=[
   },
   {
     "slug": "bells-pond",
-    "title": "Bell’s Pond",
+    "title": "Bell’s Pond Conservation Property",
     "category": "Conservation + housing study · Spring 2026",
     "location": "Greenport & Livingston, New York",
     "hero": "/studies/bells-pond/plan.webp",
@@ -93,7 +93,7 @@ export const planStudies:Project[]=[
 export const studyDetails:Record<string,ProjectDetails>={
   "bowman-residence": {
     "title": "A sandy site.\nA more generous home.",
-    "intro": "A residential landscape plan begins with the conditions already present: a dry, exposed yard, established trees, productive gardens, and an emerging meadow. The Bowman study connects age-in-place access, family play, shade, and habitat through a site-specific planting strategy.",
+    "intro": "A residential landscape plan begins with the conditions already present: a dry, exposed yard, established trees, productive gardens, and an emerging meadow. The Sandplan Meadow and Landscape study connects age-in-place access, family play, shade, and habitat through a site-specific planting strategy.",
     "scope": "Residential design · site analysis · planting · access",
     "status": "Conway School design study · Fall 2025 · Not for construction",
     "pages": [
@@ -117,9 +117,9 @@ export const studyDetails:Record<string,ProjectDetails>={
     ],
     "source": {
       "directory": "/plansets/bowman",
-      "title": "Bowman Residence",
+      "title": "Sandplan Meadow and Landscape",
       "credit": "Zaviere Drumm · The Conway School · Fall 2025",
-      "note": "Source: 2025_Drumm_FallFinalSetHigh.pdf. A student landscape design proposal, not for construction and not based on a legal survey. Page numbers here refer to PDF positions; original printed sheet numbers vary. Reference photographs on the sheets are precedents, not photographs of a completed Bowman landscape."
+      "note": "Source: 2025_Drumm_FallFinalSetHigh.pdf. A student landscape design proposal, not for construction and not based on a legal survey. Page numbers here refer to PDF positions; original printed sheet numbers vary. Reference photographs on the sheets are precedents, not photographs of a completed landscape."
     },
     "chapters": [
       {

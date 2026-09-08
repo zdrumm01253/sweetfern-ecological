@@ -1,6 +1,6 @@
 'use client';
 import {useState} from 'react';import {Input} from '@/components/ui/input';import {Textarea} from '@/components/ui/textarea';
-const email='zavieredrumm@gmail.com';
+const email='zdrumm@sweetfernecodesign.com';
 export default function ContactForm(){const[files,setFiles]=useState<File[]>([]);const[error,setError]=useState('');const[brief,setBrief]=useState<{name:string;email:string;location:string;body:string}|null>(null);const[working,setWorking]=useState(false);
 const prepare=(e:React.FormEvent<HTMLFormElement>)=>{e.preventDefault();if(files.reduce((n,f)=>n+f.size,0)>20*1024*1024){setError('Please keep the combined attachments under 20 MB.');return}setError('');const form=new FormData(e.currentTarget);const value=(key:string)=>String(form.get(key)||'').trim();const body=['Hello Sweetfern,','',`Name: ${value('name')}`,`Email: ${value('email')}`,`Property location: ${value('location')}`,`Property type: ${value('propertyType')||'Not specified'}`,`Project type: ${value('projectType')||'Not specified'}`,`Approximate timeline: ${value('timeline')||'Not specified'}`,'','Project goals:',value('goals'),'','Project description:',value('description')||'Not specified'].join('\n');setBrief({name:value('name'),email:value('email'),location:value('location'),body})};
 const base64=(bytes:Uint8Array)=>{let binary='';for(let i=0;i<bytes.length;i+=8192)binary+=String.fromCharCode(...bytes.subarray(i,i+8192));return btoa(binary).match(/.{1,76}/g)?.join('\r\n')||''};

@@ -2,15 +2,15 @@ export type StudyNarrative={key:string;kicker:string;title:string;subtitle:strin
 export const studyNarratives:Record<string,StudyNarrative>={
   "bowman-residence": {
     "key": "bowman",
-    "kicker": "BOWMAN RESIDENCE / RESIDENTIAL LANDSCAPE",
-    "title": "A sandplain meadow oasis.",
+    "kicker": "SANDPLAN MEADOW AND LANDSCAPE / RESIDENTIAL LANDSCAPE",
+    "title": "Sandplan Meadow and Landscape",
     "subtitle": "A home landscape for shade, play, food, and a lifetime of everyday use.",
     "date": "Fall 2025",
     "hero": "/studies/bowman/illustration.webp",
-    "heroAlt": "Illustrated Bowman landscape with interconnected gardens, paths, and meadow",
+    "heroAlt": "Illustrated Sandplan Meadow and Landscape landscape with interconnected gardens, paths, and meadow",
     "briefTitle": "Make room for a fuller outdoor life.",
     "brief": [
-      "The Bowman residence sits on a gently sloping, sandy terrace in Southampton. An open yard, a small deck, and scattered mature trees offer space and possibility—but limited shade, loose circulation, and dry soils make parts of the property difficult to enjoy.",
+      "The residence sits on a gently sloping, sandy terrace in Southampton. An open yard, a small deck, and scattered mature trees offer space and possibility—but limited shade, loose circulation, and dry soils make parts of the property difficult to enjoy.",
       "Our design begins with the rhythms of the household: morning coffee, gardening, time with grandchildren, and gathering outdoors. The clients plan to age in place. Comfortable routes, shaded places to sit, and easier access to water are as important as the planting itself.",
       "We bring these needs together through a connected landscape of rain gardens, productive beds, natural play, and sandplain meadow. The design works with the site’s lean soils and existing vegetation to create a place that can become richer over time."
     ],
@@ -124,7 +124,7 @@ export const studyNarratives:Record<string,StudyNarrative>={
     "resolution": "The final design combines the ecological structure of plant communities with a clear arrival, accessible daily routes, productive planting, and a range of sunny and shaded play spaces.",
     "planTitle": "A connected landscape, close to home.",
     "plan": "/studies/bowman/plan.webp",
-    "planAlt": "Bowman final landscape plan with selectable design destinations",
+    "planAlt": "Sandplan Meadow and Landscape final landscape plan with selectable design destinations",
     "features": [
       {
         "title": "Arrival garden",
@@ -1828,11 +1828,11 @@ export const studyNarratives:Record<string,StudyNarrative>={
         "text": "Extend firm paths if access needs change. Edit garden planting, adjust shade and seating, and keep water access practical as the household and landscape evolve."
       }
     ],
-    "colophon": "Bowman Residence · Landscape design, site analysis, and planting design. Developed at The Conway School in Fall 2025. Proposed landscape; construction detailing remains a subsequent phase. Original drawings, palettes, and source acknowledgments are available below."
+    "colophon": "Sandplan Meadow and Landscape · Landscape design, site analysis, and planting design. Developed at The Conway School in Fall 2025. Proposed landscape; construction detailing remains a subsequent phase. Original drawings, palettes, and source acknowledgments are available below."
   },
   "bells-pond": {
     "key": "bells-pond",
-    "kicker": "BELL’S POND / CONSERVATION + HOUSING",
+    "kicker": "BELL’S POND CONSERVATION PROPERTY / CONSERVATION + HOUSING",
     "title": "Finding common ground.",
     "subtitle": "Conservation, affordable housing, and community access—planned as one landscape.",
     "date": "Spring 2026",
