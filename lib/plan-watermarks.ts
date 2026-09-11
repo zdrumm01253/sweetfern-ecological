@@ -143,6 +143,7 @@ const plans:Record<string,string> = {
   "/studies/bells-pond/neighborhood.webp": "/watermarked-plans/studies--bells-pond--neighborhood.webp.svg",
   "/studies/bells-pond/concept-1.webp": "/watermarked-plans/studies--bells-pond--concept-1.webp.svg",
   "/studies/bells-pond/soils.webp": "/watermarked-plans/studies--bells-pond--soils.webp.svg",
+  "/studies/bells-pond/berm-section.webp": "/watermarked-plans/studies--bells-pond--berm-section.webp.svg",
   "/studies/bells-pond/drainage.webp": "/watermarked-plans/studies--bells-pond--drainage.webp.svg",
   "/studies/bells-pond/hydrology.webp": "/watermarked-plans/studies--bells-pond--hydrology.webp.svg",
   "/studies/bells-pond/plan.webp": "/watermarked-plans/studies--bells-pond--plan.webp.svg",
