@@ -1,8 +1,8 @@
 # Sweetfern Ecological Design
 
-A photographic portfolio and interactive landscape design website for Sweetfern Ecological Design. Includes Morningside, Pool Terrace, Meadow & Paths, Pond Restoration, Bowman Residence, and Bell’s Pond, plus landscape design, project management, stewardship, approach, about, and contact pages.
+A photographic portfolio and interactive landscape design website for Sweetfern Ecological Design. Includes Morningside, Pool Terrace, Meadow & Paths, Pond Restoration, Sandplan Meadow and Landscape, and Bell’s Pond, plus landscape design, project management, stewardship, approach, about, and contact pages.
 
-The Bowman and Bell’s Pond case studies include concept comparisons, interactive plans, zoomable illustrations, planting reference mosaics, and searchable planting palettes. Original documents and collaboration credits accompany the work. Planted-roof photographs show the roof, modular installation, and planting details. The path-light image is a generated placeholder awaiting project photography.
+The Sandplan Meadow and Landscape and Bell’s Pond case studies include concept comparisons, interactive plans, zoomable illustrations, planting reference mosaics, and searchable planting palettes. Original documents and collaboration credits accompany the work. Planted-roof photographs show the roof, modular installation, and planting details. The path-light image is a generated placeholder awaiting project photography.
 
 ## Development
 

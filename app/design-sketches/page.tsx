@@ -1,4 +1,6 @@
+
+import {watermarkedPlan} from "@/lib/plan-watermarks";
 import {Header,Footer} from '@/components/shell';
 import SketchGallery from '@/components/sketch-gallery';
 export const metadata={title:'Design Sketches',description:'Explore Sweetfern’s sketches of planting, stonework, arrival, and the relationship between house and landscape.'};
-export default function DesignSketches(){return <main id="top" className="sketch-page"><Header/><header className="sketch-intro"><p className="eyebrow">SWEETFERN / THE DESIGN PROCESS</p><h1>Seeing the possibilities.<br/><em>Drawing the connections.</em></h1><p>A sketch makes relationships visible: a stair meeting a slope, planting framing a view, a path connecting the house to the garden. Explore the ideas at the scale of the site and the everyday experience of living there.</p><a className="line-link" href="/">← Back to the landscapes</a></header><SketchGallery/><Footer/></main>}
+export default function DesignSketches(){return <main id="top" className="sketch-page"><Header/><header className="sketch-intro"><p className="eyebrow">SWEETFERN / THE DESIGN PROCESS</p><h1>Seeing the possibilities.<br/><em>Drawing the connections.</em></h1><p>A sketch makes relationships visible: a stair meeting a slope, planting framing a view, a path connecting the house to the garden. Explore the ideas at the scale of the site and the everyday experience of living there.</p><a className="line-link" href={watermarkedPlan("/")}>← Back to the landscapes</a></header><SketchGallery/><Footer/></main>}

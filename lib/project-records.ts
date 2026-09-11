@@ -6,7 +6,7 @@ export const projectRecords:Record<string,{title:string;text:string}[]>={
 };
 
 Object.assign(projectRecords,{
-  "bowman-residence": [
+  "sandplan-meadow-and-landscape": [
     {
       "title": "Project overview",
       "text": "A residential study for a roughly 0.95-acre property, responding to age-in-place goals, family play, shade, privacy, and easier daily use."

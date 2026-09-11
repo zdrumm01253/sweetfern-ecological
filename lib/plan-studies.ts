@@ -2,25 +2,25 @@ import type {Project} from './projects';
 import type {ProjectDetails} from './project-details';
 export const planStudies:Project[]=[
   {
-    "slug": "bowman-residence",
+    "slug": "sandplan-meadow-and-landscape",
     "title": "Sandplan Meadow and Landscape",
     "category": "Residential design study · Fall 2025",
     "location": "Southampton, Massachusetts",
-    "hero": "/studies/bowman/illustration.webp",
+    "hero": "/studies/sandplan/illustration.webp",
     "summary": "A sandplain meadow oasis, designed for everyday life.",
     "description": "A Conway School residential design study by Zaviere Drumm. Soil, drainage, sunlight, and existing vegetation guide a proposal for accessible circulation, shaded gathering, productive gardens, natural play, and regionally inspired meadow habitat. Explore original site records and proposed drawings.",
     "images": [
-      "/plansets/bowman/page-1.jpg",
-      "/plansets/bowman/page-4.jpg",
-      "/plansets/bowman/page-5.jpg",
-      "/plansets/bowman/page-7.jpg",
-      "/plansets/bowman/page-9.jpg",
-      "/plansets/bowman/page-11.jpg",
-      "/plansets/bowman/page-12.jpg",
-      "/plansets/bowman/page-14.jpg",
-      "/plansets/bowman/page-15.jpg",
-      "/plansets/bowman/page-19.jpg",
-      "/plansets/bowman/page-20.jpg"
+      "/plansets/sandplan/page-1.jpg",
+      "/plansets/sandplan/page-4.jpg",
+      "/plansets/sandplan/page-5.jpg",
+      "/plansets/sandplan/page-7.jpg",
+      "/plansets/sandplan/page-9.jpg",
+      "/plansets/sandplan/page-11.jpg",
+      "/plansets/sandplan/page-12.jpg",
+      "/plansets/sandplan/page-14.jpg",
+      "/plansets/sandplan/page-15.jpg",
+      "/plansets/sandplan/page-19.jpg",
+      "/plansets/sandplan/page-20.jpg"
     ],
     "captions": [
       "Cover illustration · proposed landscape",
@@ -91,7 +91,7 @@ export const planStudies:Project[]=[
   }
 ];
 export const studyDetails:Record<string,ProjectDetails>={
-  "bowman-residence": {
+  "sandplan-meadow-and-landscape": {
     "title": "A sandy site.\nA more generous home.",
     "intro": "A residential landscape plan begins with the conditions already present: a dry, exposed yard, established trees, productive gardens, and an emerging meadow. The Sandplan Meadow and Landscape study connects age-in-place access, family play, shade, and habitat through a site-specific planting strategy.",
     "scope": "Residential design · site analysis · planting · access",
@@ -116,7 +116,7 @@ export const studyDetails:Record<string,ProjectDetails>={
       20
     ],
     "source": {
-      "directory": "/plansets/bowman",
+      "directory": "/plansets/sandplan",
       "title": "Sandplan Meadow and Landscape",
       "credit": "Zaviere Drumm · The Conway School · Fall 2025",
       "note": "Source: 2025_Drumm_FallFinalSetHigh.pdf. A student landscape design proposal, not for construction and not based on a legal survey. Page numbers here refer to PDF positions; original printed sheet numbers vary. Reference photographs on the sheets are precedents, not photographs of a completed landscape."
@@ -126,7 +126,7 @@ export const studyDetails:Record<string,ProjectDetails>={
         "title": "Let the soil set the direction",
         "subtitle": "01 / SOIL, GEOLOGY & WATER",
         "body": "The study describes a roughly 0.95-acre property on a sandy terrace above the Manhan River valley. Its soil analysis records acidic, rapidly draining conditions that shape both planting and water management.",
-        "image": "/plansets/bowman/page-7.jpg",
+        "image": "/plansets/sandplan/page-7.jpg",
         "alt": "Let the soil set the direction — original plan-set sheet",
         "page": 7,
         "points": [
@@ -139,7 +139,7 @@ export const studyDetails:Record<string,ProjectDetails>={
         "title": "Design for everyday comfort",
         "subtitle": "02 / SUN, SHADE & ACCESS",
         "body": "Exposure, solar panels, existing trees, and everyday routes are considered together. The design adds shaded destinations while retaining sunny areas for food production and play.",
-        "image": "/plansets/bowman/page-9.jpg",
+        "image": "/plansets/sandplan/page-9.jpg",
         "alt": "Design for everyday comfort — original plan-set sheet",
         "page": 9,
         "points": [
@@ -152,7 +152,7 @@ export const studyDetails:Record<string,ProjectDetails>={
         "title": "One plan, many ways to inhabit it",
         "subtitle": "03 / RESIDENTIAL DESIGN RESPONSE",
         "body": "The final proposal brings an entry meadow, rain gardens, natural play spaces, productive planting, and a sandplain meadow into one connected residential landscape.",
-        "image": "/plansets/bowman/page-12.jpg",
+        "image": "/plansets/sandplan/page-12.jpg",
         "alt": "One plan, many ways to inhabit it — original plan-set sheet",
         "page": 12,
         "points": [
@@ -165,7 +165,7 @@ export const studyDetails:Record<string,ProjectDetails>={
         "title": "Build a plant community",
         "subtitle": "04 / HABITAT & STEWARDSHIP",
         "body": "The meadow strategy takes its cues from regional sandplain grasslands. Near the house, pitch pine and scrub oak are proposed to establish a shaded microclimate suited to the dry site.",
-        "image": "/plansets/bowman/page-20.jpg",
+        "image": "/plansets/sandplan/page-20.jpg",
         "alt": "Build a plant community — original plan-set sheet",
         "page": 20,
         "points": [

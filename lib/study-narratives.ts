@@ -1,12 +1,12 @@
 export type StudyNarrative={key:string;kicker:string;title:string;subtitle:string;date:string;hero:string;heroAlt:string;briefTitle:string;brief:string[];metrics:{value:string;label:string}[];partners?:{title:string;text:string;focus:string}[];analysisTitle:string;analysisIntro:string;layers:{title:string;label:string;headline:string;text:string;response:string;image:string;alt:string}[];choicesTitle:string;choicesIntro:string;choices:{title:string;headline:string;text:string;points:string[];tradeoff:string;image:string}[];resolution:string;planTitle:string;plan:string;planAlt:string;features:{title:string;x:number;y:number;category:string;text:string;points:string[]}[];livingTitle:string;scenes:{title:string;label:string;image:string;alt:string;text:string;details:{title:string;text:string}[]}[];plantTitle:string;plantIntro:string;communities:{title:string;text:string;care:string}[];plants:{name:string;latin:string;role:string;light:string;soil:string;community:string;height?:string;bloom?:string;page?:number}[];neighbors?:{from:string;to:string;why:string}[];careTitle:string;careIntro:string;care:{title:string;text:string}[];colophon:string};
 export const studyNarratives:Record<string,StudyNarrative>={
-  "bowman-residence": {
-    "key": "bowman",
+  "sandplan-meadow-and-landscape": {
+    "key": "sandplan",
     "kicker": "SANDPLAN MEADOW AND LANDSCAPE / RESIDENTIAL LANDSCAPE",
     "title": "Sandplan Meadow and Landscape",
     "subtitle": "A home landscape for shade, play, food, and a lifetime of everyday use.",
     "date": "Fall 2025",
-    "hero": "/studies/bowman/illustration.webp",
+    "hero": "/studies/sandplan/illustration.webp",
     "heroAlt": "Illustrated Sandplan Meadow and Landscape landscape with interconnected gardens, paths, and meadow",
     "briefTitle": "Make room for a fuller outdoor life.",
     "brief": [
@@ -41,7 +41,7 @@ export const studyNarratives:Record<string,StudyNarrative>={
         "headline": "A yard with destinations, but few connections.",
         "text": "Movement follows patches of lawn between the kitchen deck, vegetable garden, planting beds, and play areas. Narrow deck steps and an informal front entrance limit comfortable access. Existing shade pulls seating to the western edge, away from the main play spaces.",
         "response": "Create a firm primary circulation loop, improve entry, and place shaded gathering where family activities remain visible.",
-        "image": "/studies/bowman/circulation.webp",
+        "image": "/studies/sandplan/circulation.webp",
         "alt": "Everyday use — project analysis drawing"
       },
       {
@@ -50,7 +50,7 @@ export const studyNarratives:Record<string,StudyNarrative>={
         "headline": "A landscape shaped by sand.",
         "text": "Glacial sand and gravel form the terrace beneath the property. Field observations found rapid infiltration, while soil testing recorded acidic conditions and a jar test indicated roughly 85–90% sand. Water moves readily through this ground; the design also considers its relationship to the Barnes Aquifer.",
         "response": "Keep meadow soils lean. Concentrate compost and moisture-retaining amendments in productive and ornamental beds, and direct roof water toward rain barrels and planted basins.",
-        "image": "/studies/bowman/soil.webp",
+        "image": "/studies/sandplan/soil.webp",
         "alt": "Soil + water — project analysis drawing"
       },
       {
@@ -59,7 +59,7 @@ export const studyNarratives:Record<string,StudyNarrative>={
         "headline": "Comfort changes through the day.",
         "text": "The broad backyard receives strong sun and wind. Mature western pines provide the most useful shade, while the deck becomes too exposed as the day warms. Roof-mounted solar panels and food gardens depend on retained sunlight.",
         "response": "Place shade where people gather without losing productive sun. A pergola, selected tree communities, and a meadow shelter distribute comfortable places through the yard.",
-        "image": "/studies/bowman/sun.webp",
+        "image": "/studies/sandplan/sun.webp",
         "alt": "Sun + shade — project analysis drawing"
       },
       {
@@ -68,7 +68,7 @@ export const studyNarratives:Record<string,StudyNarrative>={
         "headline": "The meadow has already begun.",
         "text": "The clients have stopped mowing the far southern part of the yard. Purple lovegrass and other low-growing plants are beginning to establish around mown paths. Mature trees, new fruit and nut trees, and the vegetable garden give the design a valuable starting structure.",
         "response": "Retain productive and established planting, reinforce the meadow matrix, and connect new gardens to the vegetation already growing.",
-        "image": "/studies/bowman/vegetation.webp",
+        "image": "/studies/sandplan/vegetation.webp",
         "alt": "Living ground — project analysis drawing"
       },
       {
@@ -77,7 +77,7 @@ export const studyNarratives:Record<string,StudyNarrative>={
         "headline": "Think in plant communities.",
         "text": "The regional sandplain landscape offers a model for planting adapted to dry, acidic, nutrient-poor ground. Open grassland, low shrubs, and pitch pine–scrub oak communities provide different kinds of structure and habitat.",
         "response": "Use related communities across the yard: a sunny sandplain meadow, shade-tolerant front meadow, and a pitch pine–scrub oak gathering grove.",
-        "image": "/studies/bowman/habitat.webp",
+        "image": "/studies/sandplan/habitat.webp",
         "alt": "Nearby sandplain habitat — regional planting reference"
       }
     ],
@@ -94,7 +94,7 @@ export const studyNarratives:Record<string,StudyNarrative>={
           "Rain gardens, natural play, and a small treehouse"
         ],
         "tradeoff": "More enclosure and a stylized meadow bring a moderate level of ongoing care.",
-        "image": "/studies/bowman/concept-1.webp"
+        "image": "/studies/sandplan/concept-1.webp"
       },
       {
         "title": "Plant Communities",
@@ -106,7 +106,7 @@ export const studyNarratives:Record<string,StudyNarrative>={
           "Mown meadow paths and a wildlife-viewing shelter"
         ],
         "tradeoff": "A strong habitat framework pairs with a comparatively low-maintenance landscape.",
-        "image": "/studies/bowman/concept-2.webp"
+        "image": "/studies/sandplan/concept-2.webp"
       },
       {
         "title": "Food Forest",
@@ -118,12 +118,12 @@ export const studyNarratives:Record<string,StudyNarrative>={
           "Orchard shade and cold frames near the house"
         ],
         "tradeoff": "Greater food production brings more intensive seasonal gardening and maintenance.",
-        "image": "/studies/bowman/concept-3.webp"
+        "image": "/studies/sandplan/concept-3.webp"
       }
     ],
     "resolution": "The final design combines the ecological structure of plant communities with a clear arrival, accessible daily routes, productive planting, and a range of sunny and shaded play spaces.",
     "planTitle": "A connected landscape, close to home.",
-    "plan": "/studies/bowman/plan.webp",
+    "plan": "/studies/sandplan/plan.webp",
     "planAlt": "Sandplan Meadow and Landscape final landscape plan with selectable design destinations",
     "features": [
       {
@@ -204,7 +204,7 @@ export const studyNarratives:Record<string,StudyNarrative>={
       {
         "title": "A generous threshold.",
         "label": "DECK / PERGOLA / ACCESS",
-        "image": "/studies/bowman/deck.webp",
+        "image": "/studies/sandplan/deck.webp",
         "alt": "A generous threshold. — project design illustration",
         "text": "The kitchen door becomes the start of an outdoor room. More deck space, overhead shade, stone transitions, and a ramp connect everyday life inside with the garden beyond.",
         "details": [
@@ -225,7 +225,7 @@ export const studyNarratives:Record<string,StudyNarrative>={
       {
         "title": "Follow the water.",
         "label": "ROOF / SWALE / RAIN GARDEN",
-        "image": "/studies/bowman/rain-garden.webp",
+        "image": "/studies/sandplan/rain-garden.webp",
         "alt": "Follow the water. — project design illustration",
         "text": "Roof water is part of the garden’s structure. Rain barrels support watering; overflows and downspouts feed planted features that carry water away from the house before it enters the ground.",
         "details": [
@@ -246,7 +246,7 @@ export const studyNarratives:Record<string,StudyNarrative>={
       {
         "title": "A destination in the meadow.",
         "label": "SHADE / VIEW / PLAY",
-        "image": "/studies/bowman/shelter.webp",
+        "image": "/studies/sandplan/shelter.webp",
         "alt": "A destination in the meadow. — project design illustration",
         "text": "The meadow is a place to enter and inhabit. A small shelter creates an outdoor room without closing off the surrounding habitat.",
         "details": [
