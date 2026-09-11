@@ -2,12 +2,12 @@ export type StudyNarrative={key:string;kicker:string;title:string;subtitle:strin
 export const studyNarratives:Record<string,StudyNarrative>={
   "sandplan-meadow-and-landscape": {
     "key": "sandplan",
-    "kicker": "SANDPLAN MEADOW AND LANDSCAPE / RESIDENTIAL LANDSCAPE",
-    "title": "Sandplan Meadow and Landscape",
+    "kicker": "SANDPLAIN MEADOW RESIDENCE / RESIDENTIAL LANDSCAPE",
+    "title": "Sandplain Meadow Residence",
     "subtitle": "A home landscape for shade, play, food, and a lifetime of everyday use.",
     "date": "Fall 2025",
     "hero": "/studies/sandplan/illustration.webp",
-    "heroAlt": "Illustrated Sandplan Meadow and Landscape landscape with interconnected gardens, paths, and meadow",
+    "heroAlt": "Illustrated Sandplain Meadow Residence landscape with interconnected gardens, paths, and meadow",
     "briefTitle": "Make room for a fuller outdoor life.",
     "brief": [
       "The residence sits on a gently sloping, sandy terrace in Southampton. An open yard, a small deck, and scattered mature trees offer space and possibility—but limited shade, loose circulation, and dry soils make parts of the property difficult to enjoy.",
@@ -124,7 +124,7 @@ export const studyNarratives:Record<string,StudyNarrative>={
     "resolution": "The final design combines the ecological structure of plant communities with a clear arrival, accessible daily routes, productive planting, and a range of sunny and shaded play spaces.",
     "planTitle": "A connected landscape, close to home.",
     "plan": "/studies/sandplan/plan.webp",
-    "planAlt": "Sandplan Meadow and Landscape final landscape plan with selectable design destinations",
+    "planAlt": "Sandplain Meadow Residence final landscape plan with selectable design destinations",
     "features": [
       {
         "title": "Arrival garden",
@@ -1828,7 +1828,7 @@ export const studyNarratives:Record<string,StudyNarrative>={
         "text": "Extend firm paths if access needs change. Edit garden planting, adjust shade and seating, and keep water access practical as the household and landscape evolve."
       }
     ],
-    "colophon": "Sandplan Meadow and Landscape · Landscape design, site analysis, and planting design. Developed at The Conway School in Fall 2025. Proposed landscape; construction detailing remains a subsequent phase. Original drawings, palettes, and source acknowledgments are available below."
+    "colophon": "Sandplain Meadow Residence · Landscape design, site analysis, and planting design. Developed at The Conway School in Fall 2025. Proposed landscape; construction detailing remains a subsequent phase. Original drawings, palettes, and source acknowledgments are available below."
   },
   "bells-pond": {
     "key": "bells-pond",
