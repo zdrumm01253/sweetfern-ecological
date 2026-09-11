@@ -4,6 +4,7 @@ const plans:Record<string,string> = {
   "/sketches/morningside-driveway-october-1-thumb.webp": "/watermarked-plans/sketches--morningside-driveway-october-1-thumb.webp.svg",
   "/sketches/morningside-perspectives-2-thumb.webp": "/watermarked-plans/sketches--morningside-perspectives-2-thumb.webp.svg",
   "/sketches/schupack-perspectives-1.webp": "/watermarked-plans/sketches--schupack-perspectives-1.webp.svg",
+  "/sketches/morningside-lighting-plan.webp": "/watermarked-plans/sketches--morningside-lighting-plan.webp.svg",
   "/sketches/schupack-perspectives-1-thumb.webp": "/watermarked-plans/sketches--schupack-perspectives-1-thumb.webp.svg",
   "/sketches/morningside-perspectives-1.webp": "/watermarked-plans/sketches--morningside-perspectives-1.webp.svg",
   "/sketches/schupack-site-plan-1-thumb.webp": "/watermarked-plans/sketches--schupack-site-plan-1-thumb.webp.svg",
