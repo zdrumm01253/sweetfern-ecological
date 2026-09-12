@@ -172,3 +172,5 @@
 .bells-project-links{display:flex;flex-direction:column;align-items:flex-start;gap:18px;flex-shrink:0}
 
 .bells-neighbor-photos{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:28px}.bells-neighbor-photos img{width:100%;aspect-ratio:1;object-fit:cover}.bells-neighbor-photos figcaption{font-size:12px;margin-top:8px}.bells-neighbor-photos>p{grid-column:1/-1;font-size:13px}.bells-berm-plan img{max-height:440px;object-fit:contain;object-position:left}
+
+.card-photo-credit{font-size:11px;line-height:1.4;margin:8px 0 0;color:#53664b}.project-list.index .card-photo-credit{display:none}
