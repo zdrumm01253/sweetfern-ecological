@@ -47,11 +47,11 @@ export const planStudies:Project[]=[
   {
     "slug": "bells-pond",
     "title": "Bell’s Pond Conservation Property",
-    "category": "Conservation + housing study · Spring 2026",
+    "category": "Conservation + housing project · Spring 2026",
     "location": "Greenport & Livingston, New York",
     "hero": "/studies/bells-pond/plan.webp",
     "summary": "Conservation, affordable housing, and community access on common ground.",
-    "description": "Finding Common Ground is a collaborative Conway School study by Anna Goff and Zaviere Drumm, prepared for Columbia Land Conservancy. It explores shared goals with Columbia-Greene Habitat for Humanity and Trillium Community Land Trust through site analysis, housing siting, ecological restoration, public trails, and a pocket-neighborhood concept.",
+    "description": "Finding Common Ground is a collaborative design project by Anna Goff and Zaviere Drumm at The Conway School, prepared for Columbia Land Conservancy. It explores shared goals with Columbia-Greene Habitat for Humanity and Trillium Community Land Trust through site analysis, housing siting, ecological restoration, public trails, and a pocket-neighborhood concept.",
     "images": [
       "/plansets/bells-pond/page-1.jpg",
       "/plansets/bells-pond/page-4.jpg",
