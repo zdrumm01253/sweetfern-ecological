@@ -168,3 +168,5 @@
 .bells-bridge-detail{isolation:isolate}.bells-bridge-detail figure>a{display:block;mix-blend-mode:multiply}.bells-property-thumbnails>div{min-width:0}
 
 .bells-project-heading{display:grid;grid-template-columns:1.1fr 1fr;align-items:center;gap:5vw}.bells-project-heading>div>p:not(.eyebrow){font-size:22px;line-height:1.65}.bells-project-heading .line-link{margin-top:24px}.bells-title-page img{display:block;width:100%;height:auto;mix-blend-mode:multiply}.bells-title-page{isolation:isolate}.bells-barn-photo{margin-top:30px}.bells-barn-photo img{width:100%;height:auto;display:block}.bells-barn-photo figcaption{font-size:13px;margin-top:10px}@media(max-width:750px){.bells-project-heading{grid-template-columns:1fr}.bells-title-page{max-width:600px}}
+
+.bells-project-links{display:flex;flex-direction:column;align-items:flex-start;gap:18px;flex-shrink:0}
