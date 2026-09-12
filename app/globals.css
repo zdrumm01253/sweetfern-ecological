@@ -235,3 +235,5 @@
 .card-photo.card-bells>img{padding:0;object-fit:cover}
 
 .pool-working-thumbnail{max-width:300px;margin-top:28px}.pool-working-thumbnail img{display:block;width:100%;height:auto}.pool-working-thumbnail figcaption{font-size:13px;margin-top:10px}
+
+.photo-grid.editorial .photo-open.pond-landscape-crop{aspect-ratio:4/3}.photo-grid.editorial .photo-open.pond-landscape-crop img{width:100%;height:100%;object-fit:cover;object-position:center 35%}
