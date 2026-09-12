@@ -198,3 +198,18 @@
 .winter-project-case .winter-plan-link{font-size:clamp(22px,2.4vw,30px);line-height:1.4;padding-block:18px;border-bottom-width:2px;max-width:100%}.bells-project-heading{grid-template-columns:1fr}.bells-project-heading>div{max-width:950px}
 
 .bells-boardwalk-examples{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:26px}.bells-boardwalk-examples figure{margin:0!important;min-width:0}.bells-boardwalk-examples img{width:100%;height:120px;object-fit:cover;display:block}.bells-boardwalk-examples figcaption{font-size:12px;line-height:1.5;margin-top:8px}.bells-boardwalk-examples>p{grid-column:1/-1;font-size:12px!important;margin:0!important}.bells-berm-plan img{width:100%;max-width:340px;height:auto}@media(max-width:500px){.bells-boardwalk-examples{gap:9px}.bells-boardwalk-examples img{height:95px}}
+
+.home-more-projects{display:flex;justify-content:flex-end;margin-top:38px}
+.garden-service-topics .service-topic-photo{max-width:340px}
+.garden-service-topics .service-topic-photo img{aspect-ratio:4/3;object-fit:cover}
+.study-connection-grid .card-school-header{margin:0}
+.study-connection-grid .study-card-image{aspect-ratio:1.35}
+.study-connection-grid .study-card-image.card-sandplan{aspect-ratio:1.12}
+.study-connection-grid .study-card-image>img{height:100%;aspect-ratio:auto;object-fit:cover}
+.study-connection-grid .card-school-logo{left:14px;right:auto;bottom:14px;width:180px;padding:10px;background:#f5f5edee}
+.study-connection-grid .card-school-logo img{height:auto;aspect-ratio:auto;object-fit:contain;transform:none}
+.study-connection-grid .study-card-action{font-size:9px;padding:10px}
+@media(max-width:800px){.study-connection-grid .card-school-logo{width:140px}.study-connection-grid .study-card-action{font-size:8px;padding:8px}}
+
+.project-card:hover .card-bells>img,.project-card:focus-visible .card-bells>img{transform:scale(1.045)}
+@media(prefers-reduced-motion:reduce){.project-card .card-bells>img{transition:none}.project-card:hover .card-bells>img{transform:none}}
