@@ -1,6 +1,6 @@
 export const plantedRoofPhotos = [
   {
-    "src": "/images/planted-roof/roof-and-house-clean.webp",
+    "src": "/images/planted-roof/roof-and-house-balanced.webp",
     "title": "The roof within the landscape",
     "alt": "A planted roof beside the house, with a seating area and surrounding woodland.",
     "width": 1672,
