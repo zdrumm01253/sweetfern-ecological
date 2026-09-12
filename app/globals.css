@@ -215,3 +215,23 @@
 @media(prefers-reduced-motion:reduce){.project-card .card-bells>img{transition:none}.project-card:hover .card-bells>img{transform:none}}
 
 .lookbook-thumbnail{display:block;width:100%;max-width:300px;aspect-ratio:4/3;object-fit:cover;margin-bottom:20px}.structure-lookbooks{margin-bottom:50px}.structure-lookbooks .material-title{font-size:32px}
+
+/* Keep concept frames stable while switching alternatives. */
+.sandplan .choice-panel{align-items:start;grid-template-columns:1.5fr 1fr;gap:30px}
+.sandplan .choice-panel .branded-concept{align-self:start;width:100%;display:flex;flex-direction:column;justify-content:center;background:transparent}
+.sandplan .choice-panel .branded-concept img{height:480px;object-fit:contain;object-position:center}
+.sandplan .analysis-art{background:transparent}
+.sandplan .analysis-art img{display:block;height:auto;max-height:none;object-fit:contain}
+.study-connection-grid .card-map-title span{position:static;padding:0;background:none;color:inherit;font-size:6px;letter-spacing:normal}
+@media(max-width:650px){.sandplan .choice-panel{grid-template-columns:1fr}.sandplan .choice-panel .branded-concept img{height:360px}}
+
+.sandplan .analysis-art img{mix-blend-mode:multiply}
+.sandplan .analysis-art.circulation-drawing{padding-bottom:0;background:transparent}
+.sandplan .analysis-art.circulation-drawing span{position:absolute;bottom:12px;right:12px;margin:0}
+.project-card .card-roof-crop>img{transform:scale(1.24);transform-origin:center bottom;object-position:center bottom}
+.project-card:hover .card-roof-crop>img{transform:scale(1.28)}
+
+.sandplan .choice-panel .branded-concept img{transform:none}
+.card-photo.card-bells>img{padding:0;object-fit:cover}
+
+.pool-working-thumbnail{max-width:300px;margin-top:28px}.pool-working-thumbnail img{display:block;width:100%;height:auto}.pool-working-thumbnail figcaption{font-size:13px;margin-top:10px}
