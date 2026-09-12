@@ -194,3 +194,5 @@
 .card-photo.card-transit{aspect-ratio:612/792;background:#504e4e}.card-photo.card-transit>img,.project-card:hover .card-photo.card-transit>img{transform:none;mix-blend-mode:normal}.card-photo.card-transit .card-school-logo img{mix-blend-mode:normal}
 
 .sketch-card>div{padding:0;background:transparent;aspect-ratio:auto}.sketch-card img{display:block;height:auto;width:100%}.sketch-card>div>span{bottom:8px;right:8px}
+
+.winter-project-case .winter-plan-link{font-size:clamp(22px,2.4vw,30px);line-height:1.4;padding-block:18px;border-bottom-width:2px;max-width:100%}.bells-project-heading{grid-template-columns:1fr}.bells-project-heading>div{max-width:950px}
