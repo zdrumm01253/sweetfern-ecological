@@ -192,3 +192,5 @@
 .roof-project-intro{padding:65px 8vw 45px}.roof-project-intro>.eyebrow:nth-child(2){margin-top:50px}.roof-project-intro h1{font:clamp(56px,7vw,100px)/1.03 Georgia,serif;margin-top:20px}.roof-project-cover{width:90%;margin:0 5%;max-height:650px;object-fit:cover}.roof-project-summary{margin:65px 8vw 0;padding:30px 0;display:grid;grid-template-columns:1fr 2fr;gap:40px;border-top:1px solid #b8c4a9;border-bottom:1px solid #b8c4a9}.roof-project-summary h2{font:30px/1.2 Georgia,serif}.roof-summary-copy{min-height:120px}.roof-summary-copy p{font-size:20px;line-height:1.7}@media(max-width:650px){.roof-project-summary{grid-template-columns:1fr;gap:20px}.roof-project-intro{padding-top:35px}}
 
 .card-photo.card-transit{aspect-ratio:612/792;background:#504e4e}.card-photo.card-transit>img,.project-card:hover .card-photo.card-transit>img{transform:none;mix-blend-mode:normal}.card-photo.card-transit .card-school-logo img{mix-blend-mode:normal}
+
+.sketch-card>div{padding:0;background:transparent;aspect-ratio:auto}.sketch-card img{display:block;height:auto;width:100%}.sketch-card>div>span{bottom:8px;right:8px}
