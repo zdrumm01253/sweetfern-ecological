@@ -2,18 +2,18 @@ export type StudyNarrative={key:string;kicker:string;title:string;subtitle:strin
 export const studyNarratives:Record<string,StudyNarrative>={
   "sandplan-meadow-and-landscape": {
     "key": "sandplan",
-    "kicker": "SANDPLAIN MEADOW RESIDENCE / RESIDENTIAL LANDSCAPE",
-    "title": "Sandplain Meadow Residence",
+    "kicker": "SANDPLAIN MEADOW OASIS / RESIDENTIAL LANDSCAPE",
+    "title": "Sandplain Meadow Oasis",
     "subtitle": "A home landscape for shade, play, food, and a lifetime of everyday use.",
     "date": "Fall 2025",
     "hero": "/studies/sandplan/illustration.webp",
-    "heroAlt": "Illustrated Sandplain Meadow Residence landscape with interconnected gardens, paths, and meadow",
+    "heroAlt": "Illustrated Sandplain Meadow Oasis landscape with interconnected gardens, paths, and meadow",
     "briefTitle": "Make room for a fuller outdoor life.",
     "brief": [
-      "The residence sits on a gently sloping, sandy terrace in Southampton. An open yard, a small deck, and scattered mature trees offer space and possibility—but limited shade, loose circulation, and dry soils make parts of the property difficult to enjoy.",
-      "Our design begins with the rhythms of the household: morning coffee, gardening, time with grandchildren, and gathering outdoors. The clients plan to age in place. Comfortable routes, shaded places to sit, and easier access to water are as important as the planting itself.",
-      "We bring these needs together through a connected landscape of rain gardens, productive beds, natural play, and sandplain meadow. The design works with the site’s lean soils and existing vegetation to create a place that can become richer over time."
-    ],
+      "An ecological landscape plan for a 0.95-acre residence in Southampton brings together aging in place, family gatherings, gardening, natural play, and lower-maintenance stewardship. Analysis of circulation, soils, drainage, vegetation, sun, groundwater, and regional habitat shaped a long-term framework for everyday life outdoors.",
+      "The excessively drained Windsor sandy soils, location over the Barnes Aquifer, and proximity to MESA Priority Habitat grounded the design in regional ecology. Sandplain meadow and pitch pine–scrub oak communities connect the garden with the character of its larger landscape.",
+      "The plan integrates rain gardens, rainwater harvesting, native screening, food-producing plants, shaded gathering areas, an expanded deck, accessible paths, and wildlife observation. Plant palettes respond to hydrology, soils, light, habitat function, seasonal character, and long-term care."
+],
     "metrics": [
       {
         "value": "0.95",
@@ -124,7 +124,7 @@ export const studyNarratives:Record<string,StudyNarrative>={
     "resolution": "The final design combines the ecological structure of plant communities with a clear arrival, accessible daily routes, productive planting, and a range of sunny and shaded play spaces.",
     "planTitle": "A connected landscape, close to home.",
     "plan": "/studies/sandplan/plan.webp",
-    "planAlt": "Sandplain Meadow Residence final landscape plan with selectable design destinations",
+    "planAlt": "Sandplain Meadow Oasis final landscape plan with selectable design destinations",
     "features": [
       {
         "title": "Arrival garden",
@@ -1828,7 +1828,7 @@ export const studyNarratives:Record<string,StudyNarrative>={
         "text": "Extend firm paths if access needs change. Edit garden planting, adjust shade and seating, and keep water access practical as the household and landscape evolve."
       }
     ],
-    "colophon": "Sandplain Meadow Residence · Landscape design, site analysis, and planting design. Developed at The Conway School in Fall 2025. Proposed landscape; construction detailing remains a subsequent phase. Original drawings, palettes, and source acknowledgments are available below."
+    "colophon": "Sandplain Meadow Oasis · Landscape design, site analysis, and planting design. Developed at The Conway School in Fall 2025. Proposed landscape; construction detailing remains a subsequent phase. Original drawings, palettes, and source acknowledgments are available below."
   },
   "bells-pond": {
     "key": "bells-pond",
