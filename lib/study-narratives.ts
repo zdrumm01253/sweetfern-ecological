@@ -191,12 +191,18 @@ export const studyNarratives:Record<string,StudyNarrative>={
         "x": 77,
         "y": 61,
         "category": "SHADE & NATURAL PLAY",
-        "text": "A triangular shade structure creates a quiet gathering place with views over the meadow. A spiral play mound and a pruned interior in the forsythia hedge offer different kinds of exploration.",
+        "text": "A triangular shade structure creates a quiet gathering place with views over the meadow. A pruned interior in the forsythia hedge offers an enclosed place for exploration.",
         "points": [
           "Shade cloth oriented for the hottest part of the day",
-          "Boulders, logs, and herbs shape the play mound",
+          "Meadow paths connect the shelter to the garden",
           "A choice of open and enclosed places for play"
         ]
+      }
+      ,{
+        "title": "Elevated play spiral", "x": 57.4, "y": 69.8,
+        "category": "NATURAL PLAY",
+        "text": "An elevated spiral creates a playful destination beside the meadow paths. Boulders, logs, and herbs give the mound texture and invite exploration.",
+        "points": ["Follow the spiral to its raised center", "Explore natural materials along the route", "Connect play with the surrounding meadow"]
       }
     ],
     "livingTitle": "Small places. A more usable whole.",
