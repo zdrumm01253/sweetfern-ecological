@@ -276,3 +276,16 @@
 .card-school-header{background:#d3ddc6}
 
 .service-grid img.structures-photo-enhanced{filter:contrast(1.15) saturate(1.18) brightness(.98)}
+
+/* Coordination photographs form a consistent, responsive gallery. */
+.service-body.management-gallery{display:block}
+.management-gallery .management-intro{max-width:850px;margin-bottom:48px}
+.management-gallery .service-topics{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:56px 36px}
+.management-gallery .service-topics>article{display:flex;flex-direction:column;border:0;padding:0;margin:0}
+.management-gallery .management-context-photo{order:-1;margin:0 0 24px}
+.management-gallery .management-stonework{margin:0}
+.management-gallery .management-context-photo img,.management-gallery .management-stonework img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover}
+.management-gallery .management-photo-enhanced{filter:contrast(1.15) saturate(1.18) brightness(.98)}
+.card-photo.card-conservation{aspect-ratio:2200/1424}
+.card-photo.card-conservation img{object-fit:contain}
+@media(max-width:700px){.management-gallery .service-topics{grid-template-columns:1fr;gap:40px}.management-gallery .management-intro{margin-bottom:32px}}
