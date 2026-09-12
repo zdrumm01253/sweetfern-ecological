@@ -271,3 +271,6 @@
 .sandplan .study-photo-strip img{filter:brightness(1.18) contrast(.96)}
 .small-yard-drawings .sheet-flipbook-stage{height:auto;padding:12px;background:#fff}
 .small-yard-drawings .sheet-flipbook-stage img{height:auto;width:100%;max-height:none;filter:contrast(1.12)}
+
+/* Shared sage background for project and drawing headers. */
+.card-school-header{background:#d3ddc6}
