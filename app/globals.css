@@ -213,3 +213,5 @@
 
 .project-card:hover .card-bells>img,.project-card:focus-visible .card-bells>img{transform:scale(1.045)}
 @media(prefers-reduced-motion:reduce){.project-card .card-bells>img{transition:none}.project-card:hover .card-bells>img{transform:none}}
+
+.lookbook-thumbnail{display:block;width:100%;max-width:300px;aspect-ratio:4/3;object-fit:cover;margin-bottom:20px}.structure-lookbooks{margin-bottom:50px}.structure-lookbooks .material-title{font-size:32px}
