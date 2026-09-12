@@ -2,10 +2,10 @@
 import {useEffect,useState} from 'react';
 import {Dialog,DialogContent,DialogTitle,DialogDescription} from '@/components/ui/dialog';
 const books:Record<string,{image:number;caption:string}[]>={
- 'Reclaimed granite':[{image:81,caption:'Broad granite slabs frame the gathering terrace.'},{image:80,caption:'Stone paving connects the pool and outdoor dining space.'},{image:95,caption:'The terrace meets the garden along a planted edge.'}],
- 'Stone steppers':[{image:95,caption:'Stepping stones connect the lawn to the pool terrace.'},{image:80,caption:'A rhythm of stone and planting follows the water.'},{image:100,caption:'A garden path continues through the planting.'}],
- 'Native plants':[{image:32,caption:'Pink coneflowers in the Morningside gardens.'},{image:80,caption:'Layered planting connects the terrace to the hillside.'},{image:95,caption:'Flowering beds soften the pool’s stone perimeter.'}],
- 'Groundcovers':[{image:80,caption:'Low planting fills the spaces between the stones.'},{image:95,caption:'Ground-level planting softens the terrace edge.'},{image:81,caption:'Stone joints and planted edges bring texture to the terrace.'}]
+ 'Reclaimed granite':[{image:81,caption:'Broad granite slabs frame the gathering terrace.'},{image:85,caption:'A feature stone contrasts with the cut paving at the pool’s edge.'},{image:35,caption:'The paved gathering space connects the pool and pool house.'},{image:160,caption:'An aerial view reveals the terrace within the wider stone and garden layout.'}],
+ 'Stone steppers':[{image:100,caption:'An informal stone path winds through the pond-side planting.'},{image:24,caption:'Stone steps climb through the garden beds.'},{image:58,caption:'Broad stone treads connect the garden’s changing levels.'},{image:21,caption:'Stepping stones cross the lawn toward the house.'}],
+ 'Native plants':[{image:32,caption:'Pink coneflowers bring color and texture to the summer garden.'},{image:34,caption:'Flowering plants and grasses form layers across the hillside.'},{image:115,caption:'Yellow summer flowers beside the pond.'},{image:113,caption:'The pond-side garden connects with the wooded landscape.'}],
+ 'Groundcovers':[{image:36,caption:'Low mats of planting fill the joints along the pool edge.'},{image:90,caption:'Low planting borders the garden path and steps.'},{image:80,caption:'Groundcovers weave between broad stones beside the water.'},{image:93,caption:'A view from above shows the transition from planted joints to lawn and garden beds.'}]
 };
 export default function MaterialLookbook({items}:{items:{name:string;role:string;note:string}[]}){
  const[active,setActive]=useState<string|null>(null);const[index,setIndex]=useState(0);const[start,setStart]=useState<number|null>(null);
