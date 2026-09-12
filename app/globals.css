@@ -274,3 +274,5 @@
 
 /* Shared sage background for project and drawing headers. */
 .card-school-header{background:#d3ddc6}
+
+.service-grid img.structures-photo-enhanced{filter:contrast(1.15) saturate(1.18) brightness(.98)}
