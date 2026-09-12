@@ -266,3 +266,8 @@
 .front-entry-photos{padding:0 5vw 80px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:40px 30px}.front-entry-photos figure{margin:0;min-width:0}.front-entry-photos figure:first-child,.front-entry-credit{grid-column:1/-1}.front-entry-photos img{display:block;width:100%;height:auto}.front-entry-photos figcaption,.front-entry-credit{font-size:13px;margin-top:12px}@media(max-width:700px){.front-entry-photos{grid-template-columns:1fr;gap:30px}}
 
 .sandplan .analysis-art.sun-shade-drawing{background:#fff}.sandplan .analysis-art.sun-shade-drawing img{mix-blend-mode:normal}
+
+/* Keep the rainy-day photographs natural while lifting their exposure. */
+.sandplan .study-photo-strip img{filter:brightness(1.18) contrast(.96)}
+.small-yard-drawings .sheet-flipbook-stage{height:auto;padding:12px;background:#fff}
+.small-yard-drawings .sheet-flipbook-stage img{height:auto;width:100%;max-height:none;filter:contrast(1.12)}
