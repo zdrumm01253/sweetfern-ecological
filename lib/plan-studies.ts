@@ -119,7 +119,7 @@ export const studyDetails:Record<string,ProjectDetails>={
       "directory": "/plansets/sandplan",
       "title": "Sandplain Meadow Oasis",
       "credit": "Zaviere Drumm · The Conway School · Fall 2025",
-      "note": "Source: 2025_Drumm_FallFinalSetHigh.pdf. A student landscape design proposal, not for construction and not based on a legal survey. Page numbers here refer to PDF positions; original printed sheet numbers vary. Reference photographs on the sheets are precedents, not photographs of a completed landscape."
+      "note": "Source: 2025_Drumm_FallFinalSetHigh.pdf. A student landscape design proposal, not for construction and not based on a legal survey. Page numbers here refer to PDF positions; original printed plan numbers vary. Reference photographs on the drawings are precedents, not photographs of a completed landscape."
     },
     "chapters": [
       {
@@ -127,7 +127,7 @@ export const studyDetails:Record<string,ProjectDetails>={
         "subtitle": "01 / SOIL, GEOLOGY & WATER",
         "body": "The study describes a roughly 0.95-acre property on a sandy terrace above the Manhan River valley. Its soil analysis records acidic, rapidly draining conditions that shape both planting and water management.",
         "image": "/plansets/sandplan/page-7.jpg",
-        "alt": "Let the soil set the direction — original plan-set sheet",
+        "alt": "Let the soil set the direction — original plan-set plan",
         "page": 7,
         "points": [
           "The study reports an average soil pH of 5.4 and a jar-test estimate of 85–90% sand.",
@@ -140,7 +140,7 @@ export const studyDetails:Record<string,ProjectDetails>={
         "subtitle": "02 / SUN, SHADE & ACCESS",
         "body": "Exposure, solar panels, existing trees, and everyday routes are considered together. The design adds shaded destinations while retaining sunny areas for food production and play.",
         "image": "/plansets/sandplan/page-9.jpg",
-        "alt": "Design for everyday comfort — original plan-set sheet",
+        "alt": "Design for everyday comfort — original plan-set plan",
         "page": 9,
         "points": [
           "A connected loop links arrival, an expanded deck, patios, gardens, and the meadow.",
@@ -153,7 +153,7 @@ export const studyDetails:Record<string,ProjectDetails>={
         "subtitle": "03 / RESIDENTIAL DESIGN RESPONSE",
         "body": "The final proposal brings an entry meadow, rain gardens, natural play spaces, productive planting, and a sandplain meadow into one connected residential landscape.",
         "image": "/plansets/sandplan/page-12.jpg",
-        "alt": "One plan, many ways to inhabit it — original plan-set sheet",
+        "alt": "One plan, many ways to inhabit it — original plan-set plan",
         "page": 12,
         "points": [
           "A clearer stone entry and foundation planting establish arrival.",
@@ -166,7 +166,7 @@ export const studyDetails:Record<string,ProjectDetails>={
         "subtitle": "04 / HABITAT & STEWARDSHIP",
         "body": "The meadow strategy takes its cues from regional sandplain grasslands. Near the house, pitch pine and scrub oak are proposed to establish a shaded microclimate suited to the dry site.",
         "image": "/plansets/sandplan/page-20.jpg",
-        "alt": "Build a plant community — original plan-set sheet",
+        "alt": "Build a plant community — original plan-set plan",
         "page": 20,
         "points": [
           "Retain and work with the existing meadow beginnings, including purple lovegrass.",
@@ -340,7 +340,7 @@ export const studyDetails:Record<string,ProjectDetails>={
       "directory": "/plansets/bells-pond",
       "title": "Finding Common Ground",
       "credit": "Anna Goff & Zaviere Drumm · The Conway School · Spring 2026",
-      "note": "Source: 2026_BellsPond_SpringFinalSetHigh.pdf, prepared for Columbia Land Conservancy. This page summarizes the study-stage proposal and partner goals recorded in that document; it does not confirm current ownership, approvals, construction, or housing delivery. Original source and photo credits appear on PDF pages 31–32. PDF positions are used here because printed sheet numbering varies."
+      "note": "Source: 2026_BellsPond_SpringFinalSetHigh.pdf, prepared for Columbia Land Conservancy. This page summarizes the study-stage proposal and partner goals recorded in that document; it does not confirm current ownership, approvals, construction, or housing delivery. Original source and photo credits appear on PDF pages 31–32. PDF positions are used here because printed plan numbering varies."
     },
     "chapters": [
       {
@@ -348,7 +348,7 @@ export const studyDetails:Record<string,ProjectDetails>={
         "subtitle": "01 / CONSERVATION & AFFORDABLE HOUSING",
         "body": "The study brings together Columbia Land Conservancy, Columbia-Greene Habitat for Humanity, and Trillium Community Land Trust. It considers two housing areas alongside land intended for public conservation.",
         "image": "/plansets/bells-pond/page-3.jpg",
-        "alt": "Three organizations, a shared landscape — original plan-set sheet",
+        "alt": "Three organizations, a shared landscape — original plan-set plan",
         "page": 3,
         "points": [
           "The source describes approximately 15 acres for each housing organization within the larger 143-acre site.",
@@ -361,7 +361,7 @@ export const studyDetails:Record<string,ProjectDetails>={
         "subtitle": "02 / SITE ANALYSIS & SITING",
         "body": "The design directs proposed housing toward flatter land near Route 9 and existing infrastructure, while reading wetlands, drainage, forest, and public access as a connected system.",
         "image": "/plansets/bells-pond/page-10.jpg",
-        "alt": "Find where development belongs — original plan-set sheet",
+        "alt": "Find where development belongs — original plan-set plan",
         "page": 10,
         "points": [
           "Soil, vegetation, slope, and watershed maps establish the opportunities and constraints.",
@@ -374,7 +374,7 @@ export const studyDetails:Record<string,ProjectDetails>={
         "subtitle": "03 / TRILLIUM POCKET NEIGHBORHOOD",
         "body": "The Trillium concept clusters homes around shared greenspace. Pedestrian connections, concentrated parking, planting, and visible stormwater systems are designed together.",
         "image": "/plansets/bells-pond/page-28.jpg",
-        "alt": "A neighborhood around a common — original plan-set sheet",
+        "alt": "A neighborhood around a common — original plan-set plan",
         "page": 28,
         "points": [
           "Firm, gently graded paths are proposed between homes, parking, gardens, and the conservation trails.",
@@ -387,7 +387,7 @@ export const studyDetails:Record<string,ProjectDetails>={
         "subtitle": "04 / TRAILS & PUBLIC EXPERIENCE",
         "body": "The proposal creates a sequence of trails, a bridge and observation deck, gathering spaces, and wildlife-viewing destinations across the conservation land.",
         "image": "/plansets/bells-pond/page-23.jpg",
-        "alt": "Make conservation part of daily life — original plan-set sheet",
+        "alt": "Make conservation part of daily life — original plan-set plan",
         "page": 23,
         "points": [
           "The trail concept prioritizes broad access while recognizing the steeper southern terrain.",
@@ -400,7 +400,7 @@ export const studyDetails:Record<string,ProjectDetails>={
         "subtitle": "05 / RESTORATION & STEWARDSHIP",
         "body": "A mosaic of forest, meadow, and shrubland provides the long-term ecological structure. The Good Neighbor guide extends this thinking into residential gardens.",
         "image": "/plansets/bells-pond/page-16.jpg",
-        "alt": "Carry habitat through every boundary — original plan-set sheet",
+        "alt": "Carry habitat through every boundary — original plan-set plan",
         "page": 16,
         "points": [
           "The final proposal emphasizes forest restoration while retaining selected open and transitional habitats.",

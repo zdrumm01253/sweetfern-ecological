@@ -252,3 +252,13 @@
 .sandplan .living-art{background:transparent}.sandplan .living-art img{mix-blend-mode:multiply}.destination-media{min-width:0}.destination-detail{margin:28px 0 0}.destination-detail svg{display:block;width:100%;height:auto;background:#f5f4ec}.destination-detail figcaption{font-size:13px;margin-top:10px}.feature-reader article ul,.choice-panel ul{list-style:disc;padding-left:1.3em}.feature-reader article li{margin:.45em 0}.lead-art:hover img,.document-card:hover img{transform:none}.sandplan .choice-panel>.branded-concept{cursor:default}.structure-proposal-grid img{display:block;width:100%;height:auto}
 
 .sandplan .analysis-art.circulation-drawing{background:#fff}.sandplan .analysis-art.circulation-drawing img{mix-blend-mode:normal}.framed-plan{display:block;width:100%;height:auto;background:#fff}.plan-brand-header small{display:block;font-size:12px;margin-top:6px;font-weight:400}
+
+.destination-detail svg{background:transparent}
+
+.sandplan .study-plan .plan-brand-header{background:#e5e9dc;color:#213a2b;padding:20px 24px}.bells-title-page{background:transparent}.bells-title-page>img{mix-blend-mode:multiply}
+
+.bells-title-art{display:block;width:100%;height:auto;mix-blend-mode:multiply}
+
+.destination-detail>img{display:block;width:100%;height:auto}
+
+.tree-house-photos{padding:0 5vw 80px}.tree-house-photos figure{margin:0 0 40px}.tree-house-photos img{display:block;width:100%;max-height:850px;object-fit:contain}.tree-house-photos figcaption,.tree-house-photos>p{font-size:13px;margin-top:12px}
