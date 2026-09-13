@@ -122,7 +122,7 @@ export const studyNarratives:Record<string,StudyNarrative>={
       }
     ],
     "resolution": "The final design combines the ecological structure of plant communities with a clear arrival, accessible daily routes, productive planting, and a range of sunny and shaded play spaces.",
-    "planTitle": "A connected landscape, close to home.",
+    "planTitle": "A connected landscape",
     "plan": "/studies/sandplan/plan.webp",
     "planAlt": "Sandplain Meadow Oasis final landscape plan with selectable design destinations",
     "features": [

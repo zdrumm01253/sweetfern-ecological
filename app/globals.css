@@ -289,3 +289,44 @@
 .card-photo.card-conservation{aspect-ratio:2200/1424}
 .card-photo.card-conservation img{object-fit:contain}
 @media(max-width:700px){.management-gallery .service-topics{grid-template-columns:1fr;gap:40px}.management-gallery .management-intro{margin-bottom:32px}}
+
+/* Compact shared footer. */
+footer#get-in-touch{padding:28px 6vw 20px}
+#get-in-touch .footer-top{display:flex;align-items:center;justify-content:space-between;gap:24px;padding-bottom:22px}
+#get-in-touch .footer-contact{gap:12px;flex-shrink:0}
+#get-in-touch .footer-sprig{width:36px;height:46px}
+#get-in-touch .footer-links{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:flex-end;gap:10px 22px;padding-top:0;min-width:0;font-size:13px}
+#get-in-touch .footer-bottom{align-items:center;padding-top:18px;gap:18px}
+#get-in-touch .footer-bottom .brand{font-size:30px}
+@media(max-width:650px){
+footer#get-in-touch{padding:22px 6vw 18px}
+#get-in-touch .footer-top{align-items:flex-start;flex-direction:column;gap:16px;padding-bottom:18px}
+#get-in-touch .footer-links{justify-content:flex-start;gap:10px 18px}
+#get-in-touch .footer-bottom{padding-top:16px}
+}
+
+.sandplan .authored-archive .sheet-flipbook{max-width:1200px}
+.sandplan .authored-archive .sheet-flipbook-stage{height:auto;padding:12px}
+.sandplan .authored-archive .sheet-flipbook-stage img{height:auto;width:100%;aspect-ratio:2149/1392;object-fit:contain}
+
+.management-gallery .service-topics>article:first-of-type{display:contents}
+.management-gallery .service-topics>article:first-of-type .management-context-photo{grid-column:2;grid-row:1;margin:0}
+.management-gallery .service-topics>article:first-of-type .management-team-copy{grid-column:1/-1;width:min(100%,600px);justify-self:center}
+@media(max-width:700px){.management-gallery .service-topics>article:first-of-type .management-context-photo{grid-column:1;grid-row:auto}}
+
+.management-project-banner{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:34px 6vw;background:#e3e8dc}
+.management-project-banner h2{margin:0;font-size:clamp(26px,3vw,40px)}
+.management-project-banner .line-link{flex-shrink:0}
+@media(max-width:600px){.management-project-banner{align-items:flex-start;flex-direction:column;gap:16px;padding:28px 6vw}}
+.lightbox-bottom button{font-size:14px;padding:10px 12px;min-height:44px;flex-shrink:0}
+
+.photo-grid.editorial.curated figure.featured-photo .photo-open.pool-garden-crop{aspect-ratio:8/7}
+.photo-grid.editorial.curated figure.featured-photo .photo-open.pool-garden-crop img{width:100%;height:100%;object-fit:cover;object-position:center bottom}
+.chapter-image img[src="/images/summer-13.webp"]{object-position:45% center}
+.report-reader{max-width:1100px;margin:auto;padding:35px 6vw 65px}
+.report-reader h1{font-size:clamp(36px,5vw,64px);letter-spacing:-1.5px}
+.report-reader>.sheet-flipbook{margin-top:32px}
+.report-reader .sheet-flipbook-stage{height:auto;padding:12px}
+.report-reader .sheet-flipbook-stage img{height:auto;aspect-ratio:612/792}
+
+.stewardship-roof-crop{overflow:hidden}.stewardship-grid .stewardship-roof-crop img{display:block;transform:scale(1.46);transform-origin:center bottom}
