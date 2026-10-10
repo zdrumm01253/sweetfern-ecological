@@ -24,7 +24,7 @@ export const planStudies:Project[]=[
     ],
     "captions": [
       "Cover illustration · proposed landscape",
-      "Existing conditions · site photographs and plan",
+      "Existing conditions · landscape and site plan",
       "Circulation analysis",
       "Soil analysis",
       "Sun and shade analysis",
@@ -68,7 +68,7 @@ export const planStudies:Project[]=[
     ],
     "captions": [
       "Cover illustration · proposed landscape",
-      "Existing conditions · site photographs and inventory",
+      "Existing conditions · landscape and site inventory",
       "Existing vegetation analysis",
       "Slopes and drainage analysis",
       "Alternative design strategies",
@@ -119,7 +119,7 @@ export const studyDetails:Record<string,ProjectDetails>={
       "directory": "/plansets/sandplan",
       "title": "Sandplain Meadow Oasis",
       "credit": "Zaviere Drumm · The Conway School · Fall 2025",
-      "note": "Source: 2025_Drumm_FallFinalSetHigh.pdf. A student landscape design proposal, not for construction and not based on a legal survey. Page numbers here refer to PDF positions; original printed plan numbers vary. Reference photographs on the drawings are precedents, not photographs of a completed landscape."
+      "note": "Source: 2025_Drumm_FallFinalSetHigh.pdf. A student landscape design proposal, not for construction and not based on a legal survey. Page numbers here refer to PDF positions; original printed plan numbers vary. Landscape precedents on the drawings illustrate design ideas; they do not represent completed work on this site."
     },
     "chapters": [
       {
@@ -202,7 +202,7 @@ export const studyDetails:Record<string,ProjectDetails>={
         "page": 4,
         "title": "Existing conditions",
         "type": "Analysis",
-        "description": "Site inventory, photographs, and existing spatial relationships."
+        "description": "Site inventory, landscape character, and existing spatial relationships."
       },
       {
         "page": 5,
@@ -442,7 +442,7 @@ export const studyDetails:Record<string,ProjectDetails>={
         "page": 4,
         "title": "Goals & existing conditions",
         "type": "Analysis",
-        "description": "Site photography, land uses, buildings, and circulation."
+        "description": "Landscape character, land uses, buildings, and circulation."
       },
       {
         "page": 7,
